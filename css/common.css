@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*header*/
+
+header {
+  width: 1280px;
+  height: 115px;
+  margin: 0 auto;
+}
+
+header > #box1 {
+  width: 1280px;
+  height: 75px;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 100px;
+  height: 50px;
+  float: left;
+  margin: 30 0 0 30px;
+}
+
+#logo > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+#login {
+  width: 600px;
+  height: 31px;
+  float: right;
+  margin: 20px 20px 0 0px;
+}
+
+#login > ul > li {
+  float: right;
+  font-size: 12px;
+  margin: 0 7px;
+  color: #666;
+  float: right;
+}
+
+#login > ul > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  width: 1280px;
+  height: 45px;
+}
+
+nav > ul {
+  width: 1280px;
+  height: 45px;
+  margin: 10px auto;
+  background-color: #efefef;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  float: left;
+  margin: 0 30px 0 30px;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav > ul > li > a:hover {
+  opacity: 0.5;
+}
+
+/*footer*/
+
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+}
+footer > #box {
+  width: 1240px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#box > a > img {
+  width: 100px;
+  height: 30px;
+  float: left;
+  margin: 30px 0 0 30px;
+}
+
+footer > #box > ul {
+  width: 1100px;
+  height: 150px;
+  margin: 50px 0 0 50px;
+  color: #666;
+  float: left;
+}
+footer > #box > ul > li {
+  float: left;
+  font-size: 12px;
+  margin: 5px auto;
+}
+footer > #box > ul > li > a {
+  text-decoration: none;
+  color: #666;
+}
